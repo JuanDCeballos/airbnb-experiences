@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+.container {
+  border: 1px solid red;
+  border-radius: 10px 10px;
+  background-color: #ffffff;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 550px;
+  height: 70px;
+  padding-left: 30px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 8%), 0 8px 14px rgb(0 0 0 / 10%);
 }

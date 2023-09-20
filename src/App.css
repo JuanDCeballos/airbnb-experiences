@@ -26,13 +26,13 @@ body {
   border: 1px solid red;
   border-radius: 10px 10px;
   background-color: #ffffff;
+  max-width: 550px;
 }
 
 .navbar-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 550px;
   height: 70px;
   padding-left: 30px;
   box-shadow: 0 2px 6px rgb(0 0 0 / 8%), 0 8px 14px rgb(0 0 0 / 10%);
@@ -62,8 +62,15 @@ body {
   width: 318px;
 }
 
-.card-container {
-  padding: 0px 0 30px 37px;
+/* ::-webkit-scrollbar {
+  width: 0;
+} */
+
+.cards-list {
+  padding: 20px;
+  display: flex;
+  overflow: scroll;
+  gap: 20px;
 }
 
 .card-container-img {
